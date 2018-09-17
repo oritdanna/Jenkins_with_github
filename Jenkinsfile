@@ -13,7 +13,4 @@ pipeline {
       }
     }
   }
-  environment {
-    NODE_ENV = 'test'
-  }
 }
