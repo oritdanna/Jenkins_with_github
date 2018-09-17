@@ -9,8 +9,7 @@ pipeline {
     stage('Test') {
       steps {
         echo 'Hi Skully'
-        sh '''git push
-'''
+        sh 'npm run test'
       }
     }
   }
