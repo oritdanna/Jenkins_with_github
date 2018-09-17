@@ -9,7 +9,8 @@ pipeline {
     stage('Test') {
       steps {
         echo 'Hi Skully'
-        bat(script: 'react-scripts start', encoding: 'UTF8', returnStatus: true)
+        sh '''git push
+'''
       }
     }
   }
