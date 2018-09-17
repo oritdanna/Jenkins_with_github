@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        sh 'sh \'node -v\''
+        echo 'Hi Skully'
       }
     }
   }
